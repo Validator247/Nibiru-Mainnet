@@ -106,20 +106,21 @@ Check Balance
 
 # Create validator
 
-    nibid tx staking create-validator \
-    --amount=1000000unibi \
-    --pubkey=$(nibid tendermint show-validator) \
-    --moniker=STAVRguide \
-    --chain-id=nibiru-itn-3 \
-    --commission-rate="0.10" \
-    --commission-max-rate="0.20" \
-    --commission-max-change-rate="0.1" \
-    --min-self-delegation="1" \
-    --from=<walletname> \
-    --identity="" \
-    --details="" \
-    --website="" \
-    -y
+     nibid tx staking create-validator \
+     --amount 1000000unibi \
+     --commission-max-change-rate "0.05" \
+     --commission-max-rate "0.10" \
+     --commission-rate "0.05" \
+     --min-self-delegation "1" \
+     --pubkey=$(nibid tendermint show-validator) \
+     --moniker 'validator247.com' \
+     --website "https://validator247.com" \
+     --identity "xxxxxxxx" \
+     --details "xxxxxxxx" \
+     --security-contact="your_mail" \
+     --chain-id cataclysm-1 \
+     --from wallet
+     -y
 
 # Delete node
 
