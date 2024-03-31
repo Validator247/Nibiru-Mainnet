@@ -25,13 +25,12 @@
 
 # Download genesis
 
-    wget -O genesis.json https://snapshots.polkachu.com/genesis/nibiru/genesis.json --inet4-only
-    mv genesis.json ~/.nibid/config
+    wget -O genesis.json https://raw.githubusercontent.com/Validator247/Nibiru-Mainnet/main/genesis.json
+
 
 # Download addrbook
 
-    wget -O addrbook.json https://snapshots.polkachu.com/addrbook/nibiru/addrbook.json --inet4-only
-    mv addrbook.json ~/.nibid/config
+    wget -O addrbook.json https://raw.githubusercontent.com/Validator247/Nibiru-Mainnet/main/addrbook.json
 
 # Set prunning
 
