@@ -142,7 +142,7 @@ Check Balance
 
 # Withdraw rewards
 
-        nibid tx distribution withdraw-rewards $(nibid keys show wallet --bech val -a) --from wallet --commission --chain-id cataclysm-1 --gas auto --fees 5000unibi -y
+      nibid tx distribution withdraw-rewards $(nibid keys show wallet --bech val -a) --from wallet --commission --chain-id cataclysm-1 --gas auto --gas-adjustment 1.5 --fees 5000unibi --yes
 
 # DONE        
 
