@@ -71,7 +71,7 @@ Install lz4 if needed
 
 Download the snapshot
 
-    wget -O nibiru_4448231.tar.lz4 https://snapshots.polkachu.com/snapshots/nibiru/nibiru_4448231.tar.lz4 --inet4-only
+    wget -O nibiru_5915897.tar.lz4 https://snapshots.polkachu.com/snapshots/nibiru/nibiru_5915897.tar.lz4 --inet4-only
 
 Decompress the snapshot
 
